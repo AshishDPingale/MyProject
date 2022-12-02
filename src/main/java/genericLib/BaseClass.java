@@ -22,7 +22,7 @@ public class BaseClass
 	{
 		WebDriverManager.chromedriver().setup();   
 		                                          // webdrivermanager is dependency which gives acess to chrome browser
-		                                          //WebDriverManager.FirefoxDriver(.setup();     //for firefox Driver
+		                                          //WebDriverManager.FirefoxDriver().setup();     //for firefox Driver
 	    Driver=new ChromeDriver();
 		Driver.get(pdata.getData("url"));                                       
 		Driver.manage().window().maximize();
